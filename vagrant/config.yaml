@@ -5,11 +5,11 @@ ROS_version: 1.5.1
 k8s_version: "v1.20.10-rancher1-1"
 server:
   cpus: 1
-  memory: 1500
+  memory: 4096
 node:
-  count: 1
+  count: 2
   cpus: 1
-  memory: 1500
+  memory: 4096
 ip:
   master: 172.22.101.100
   server: 172.22.101.101
